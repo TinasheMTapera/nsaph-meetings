@@ -54,7 +54,7 @@ flowchart TB
 
 :::: {.columns}
 ::: {.column .incremental width="75%"}
-- Tools 🛠️: R, Python, Quarto, DAG pipelines, Slurm, Git, Markdown, RStudio, VSCode
+- Tools 🛠️: R, Python, Quarto, Zotero, Slurm, Git, Markdown, RStudio, VSCode
 - Communication 🗣️: Lab meetings, one-on-one support, documentation, workshops, project-specific 
 contexts, Emails, Slack, Basecamp
 :::
@@ -193,14 +193,13 @@ Answer: RSEOps.^[RSEOps = Research Software Engineering Operations. A term I use
 ::: {.column .r-fit-text .incremental .fade-in-then-semi-out width="65%"}
 - We were asked to share how we implemented a particular method → we got the original dataset from a collaborator, but we don't talk 
 anymore → someone fixed some of the values in Excel → we didn't write down what version of `dplyr` we 
-used, so the code crashes → you might have to issue a **retraction** 😰
+used, so the code crashes → **retraction** 😰
 - **The code _is_ your methods section:** Science happens when someone else can repeat your experiment and get the same 
 result based on your instructions.
 - **Vision:** All data processing and analysis steps are implemented in code that is well-documented, version-controlled, and shared in a way that 
 others can easily access and run it.
 - **Actions:** Create central GitHub repository for _all_ lab activities, fork repos, promote machine-readable tools to enable 
-code-as-methods (e.g. pipelines as DAGs, notebooks as experiments, `stagecoach` manifest), link tasks to GitHub issues, and provide training and 
-support to help students and collaborators adopt these practices.
+code-as-methods (e.g. pipelines as DAGs, notebooks as experiments, `stagecoach` manifest).
 :::
 
 ::: {.column .r-fit-text .incremental width="35%"}
@@ -223,7 +222,7 @@ support to help students and collaborators adopt these practices.
 - Reading code sucks. Writing code sucks. We are not engineers, we are scientists. We want to understand the science, not the code.
 - **Literate Programming:** There is no excuse not to use notebooks for _(nearly)_ everything^[Before you come at me with your arguments about how notebooks are a terrible software development medium, I disagree — and I can prove it]. 
 - **Vision:** Science is as fun and easy to read as it is to create. Notebooks allow you to interleave plain-text code, results, and narrative in a way that is simultaneously digestible and comprehensive.
-- **Actions:** Create a project template that encourages using notebooks for data processing and analysis, provide training and support to help students and collaborators adopt this practice, and promote the use of notebooks as a standard for scientific communication within the lab.
+- **Actions:** Create a project template that encourages using notebooks for data processing and analysis, provide training and support to help students and collaborators adopt this practice, and promote the use of notebooks as a standard for scientific communication within the lab^[Programs are meant to be read by humans and only incidentally for computers to execute — Donald Knuth].
 :::
 
 ::: {.column .r-fit-text .incremental width="40%"}
@@ -271,23 +270,39 @@ encourage "open learning" by _never_ shying away from sharing WIPs, _always_ pra
 **RSEOps:** operationalizing the shift toward more reproducible, scalable, and efficient research practices.
 
 :::: {.columns}
-::: {.column .r-fit-text width="40%"}
+
+::: {.column .r-fit-text width="60%"}
 ### Impact this year
 
-- Made lab computing activity more visible.
+- Increased visibility of Research Computing
 - Strengthened reproducible analysis practices.
 - Improved data transfer and documentation workflows.
 - Converted project-specific lessons into reusable lab infrastructure.
 - Helped students and collaborators work more independently and consistently.
+- Built a data-driven foundation for continuous improvement, measurable outcomes, and strategic planning
 :::
 
-::: {.column .r-fit-text width="60%"}
-### Priorities for next year
+::: {.column .r-fit-text width="40%"}
+![Everything's Connected!](interconnected.png){width="400px"}
+:::
 
-1. _n-of-1 experiment_: Practice what we preach by doing, documenting, and demoing first. Do-as-I-do.
-2. _Principles before tools_: Before introducing a new tool or workflow, clearly articulate how it fits into the RSEOps principles of remote-first, code-as-source-of-truth, communication-over-sophistication, and good-habits-compound. Show that it will bring value by advancing the mission.
+::::
+
+## 6️⃣ Strategic impact & looking ahead
+
+
+**RSEOps:** operationalizing the shift toward more reproducible, scalable, and efficient research practices.
+
+:::: {.columns}
+::: {.column .r-fit-text width="75%"}
+1. _n-of-1 experiment_: Practice what we preach — be the first.
+2. _Principles before tools_: Before introducing a new tool or workflow, clearly articulate how it fits into the RSEOps principles.
 3. _Strengthen collaboration_: What can we cherry pick from NSAPH's existing RSEOps ecosystem? What can we contribute back? How can we leverage NSAPH's collective expertise to build durable lab infrastructure?
-4. _RSEOps Artifacts_: Promote the creation and maintenance of RSEOps artifacts (datasets, projects, documentation, training materials, convenience tools) that support reproducibility, scalability, and efficiency in our research workflows, and _reward_ their use and maintenance as much as we reward papers.
+4. _RSEOps Artifacts_: Create & maintain RSEOps artifacts (datasets, projects, documentation, training materials, convenience tools) and _reward_ their use and maintenance as much as we reward papers.
 5. _Ecosystem development_: Continue to build out a cohesive ecosystem of tools that support reproducibility, scalability, and continuous learning in our research workflows.
+:::
+
+::: {.column .r-fit-text width="25%"}
+![Behavior change is hard, but possible when you create a supportive environment^[Fogg Behavior Model: https://www.behaviormodel.org/]](https://happily.ai/blog/content/images/2025/11/CleanShot-2025-11-04-at-22.19.11@2x.png){width="400px"}
 :::
 ::::

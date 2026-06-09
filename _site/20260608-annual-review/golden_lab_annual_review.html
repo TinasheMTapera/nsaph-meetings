@@ -186,7 +186,7 @@ Tinashe M. Tapera
 <div class="columns">
 <div class="column" style="width:75%;">
 <ul>
-<li class="fragment">Tools 🛠️: R, Python, Quarto, DAG pipelines, Slurm, Git, Markdown, RStudio, VSCode</li>
+<li class="fragment">Tools 🛠️: R, Python, Quarto, Zotero, Slurm, Git, Markdown, RStudio, VSCode</li>
 <li class="fragment">Communication 🗣️: Lab meetings, one-on-one support, documentation, workshops, project-specific contexts, Emails, Slack, Basecamp</li>
 </ul>
 </div><div class="column" style="width:25%;">
@@ -350,10 +350,10 @@ Tinashe M. Tapera
 <div class="columns">
 <div class="column r-fit-text fade-in-then-semi-out" style="width:65%;">
 <ul>
-<li class="fragment">We were asked to share how we implemented a particular method → we got the original dataset from a collaborator, but we don’t talk anymore → someone fixed some of the values in Excel → we didn’t write down what version of <code>dplyr</code> we used, so the code crashes → you might have to issue a <strong>retraction</strong> 😰</li>
+<li class="fragment">We were asked to share how we implemented a particular method → we got the original dataset from a collaborator, but we don’t talk anymore → someone fixed some of the values in Excel → we didn’t write down what version of <code>dplyr</code> we used, so the code crashes → <strong>retraction</strong> 😰</li>
 <li class="fragment"><strong>The code <em>is</em> your methods section:</strong> Science happens when someone else can repeat your experiment and get the same result based on your instructions.</li>
 <li class="fragment"><strong>Vision:</strong> All data processing and analysis steps are implemented in code that is well-documented, version-controlled, and shared in a way that others can easily access and run it.</li>
-<li class="fragment"><strong>Actions:</strong> Create central GitHub repository for <em>all</em> lab activities, fork repos, promote machine-readable tools to enable code-as-methods (e.g.&nbsp;pipelines as DAGs, notebooks as experiments, <code>stagecoach</code> manifest), link tasks to GitHub issues, and provide training and support to help students and collaborators adopt these practices.</li>
+<li class="fragment"><strong>Actions:</strong> Create central GitHub repository for <em>all</em> lab activities, fork repos, promote machine-readable tools to enable code-as-methods (e.g.&nbsp;pipelines as DAGs, notebooks as experiments, <code>stagecoach</code> manifest).</li>
 </ul>
 </div><div class="column r-fit-text" style="width:35%;">
 <div class="fragment">
@@ -377,7 +377,7 @@ Tinashe M. Tapera
 <li class="fragment">Reading code sucks. Writing code sucks. We are not engineers, we are scientists. We want to understand the science, not the code.</li>
 <li class="fragment"><strong>Literate Programming:</strong> There is no excuse not to use notebooks for <em>(nearly)</em> everything<a href="#/footnotes" class="footnote-ref" id="fnref5" role="doc-noteref" data-footnote-href="#/fn5" onclick=""><sup>5</sup></a>.</li>
 <li class="fragment"><strong>Vision:</strong> Science is as fun and easy to read as it is to create. Notebooks allow you to interleave plain-text code, results, and narrative in a way that is simultaneously digestible and comprehensive.</li>
-<li class="fragment"><strong>Actions:</strong> Create a project template that encourages using notebooks for data processing and analysis, provide training and support to help students and collaborators adopt this practice, and promote the use of notebooks as a standard for scientific communication within the lab.</li>
+<li class="fragment"><strong>Actions:</strong> Create a project template that encourages using notebooks for data processing and analysis, provide training and support to help students and collaborators adopt this practice, and promote the use of notebooks as a standard for scientific communication within the lab<a href="#/footnotes" class="footnote-ref" id="fnref6" role="doc-noteref" data-footnote-href="#/fn6" onclick=""><sup>6</sup></a>.</li>
 </ul>
 </div><div class="column r-fit-text" style="width:40%;">
 <div class="fragment">
@@ -430,28 +430,48 @@ Tinashe M. Tapera
 <h2>6️⃣ Strategic impact &amp; looking ahead</h2>
 <p><strong>RSEOps:</strong> operationalizing the shift toward more reproducible, scalable, and efficient research practices.</p>
 <div class="columns">
-<div class="column r-fit-text" style="width:40%;">
+<div class="column r-fit-text" style="width:60%;">
 <h3 id="impact-this-year">Impact this year</h3>
 <ul>
-<li>Made lab computing activity more visible.</li>
+<li>Increased visibility of Research Computing</li>
 <li>Strengthened reproducible analysis practices.</li>
 <li>Improved data transfer and documentation workflows.</li>
 <li>Converted project-specific lessons into reusable lab infrastructure.</li>
 <li>Helped students and collaborators work more independently and consistently.</li>
+<li>Built a data-driven foundation for continuous improvement, measurable outcomes, and strategic planning</li>
 </ul>
-</div><div class="column r-fit-text" style="width:60%;">
-<h3 id="priorities-for-next-year">Priorities for next year</h3>
+</div><div class="column r-fit-text" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="interconnected.png" width="400"></p>
+<figcaption>Everything’s Connected!</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="strategic-impact-looking-ahead-1" class="slide level2">
+<h2>6️⃣ Strategic impact &amp; looking ahead</h2>
+<p><strong>RSEOps:</strong> operationalizing the shift toward more reproducible, scalable, and efficient research practices.</p>
+<div class="columns">
+<div class="column r-fit-text" style="width:75%;">
 <ol type="1">
-<li><em>n-of-1 experiment</em>: Practice what we preach by doing, documenting, and demoing first. Do-as-I-do.</li>
-<li><em>Principles before tools</em>: Before introducing a new tool or workflow, clearly articulate how it fits into the RSEOps principles of remote-first, code-as-source-of-truth, communication-over-sophistication, and good-habits-compound. Show that it will bring value by advancing the mission.</li>
+<li><em>n-of-1 experiment</em>: Practice what we preach — be the first.</li>
+<li><em>Principles before tools</em>: Before introducing a new tool or workflow, clearly articulate how it fits into the RSEOps principles.</li>
 <li><em>Strengthen collaboration</em>: What can we cherry pick from NSAPH’s existing RSEOps ecosystem? What can we contribute back? How can we leverage NSAPH’s collective expertise to build durable lab infrastructure?</li>
-<li><em>RSEOps Artifacts</em>: Promote the creation and maintenance of RSEOps artifacts (datasets, projects, documentation, training materials, convenience tools) that support reproducibility, scalability, and efficiency in our research workflows, and <em>reward</em> their use and maintenance as much as we reward papers.</li>
+<li><em>RSEOps Artifacts</em>: Create &amp; maintain RSEOps artifacts (datasets, projects, documentation, training materials, convenience tools) and <em>reward</em> their use and maintenance as much as we reward papers.</li>
 <li><em>Ecosystem development</em>: Continue to build out a cohesive ecosystem of tools that support reproducibility, scalability, and continuous learning in our research workflows.</li>
 </ol>
+</div><div class="column r-fit-text" style="width:25%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://happily.ai/blog/content/images/2025/11/CleanShot-2025-11-04-at-22.19.11@2x.png" width="400"></p>
+<figcaption>Behavior change is hard, but possible when you create a supportive environment<a href="#/footnotes" class="footnote-ref" id="fnref7" role="doc-noteref" data-footnote-href="#/fn7" onclick=""><sup>7</sup></a></figcaption>
+</figure>
+</div>
 </div></div>
 
 
-</section></section>
+<aside></aside></section></section>
 <section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h2>Footnotes</h2>
 
 <ol>
@@ -460,6 +480,8 @@ Tinashe M. Tapera
 <li id="fn3"><p>One week</p></li>
 <li id="fn4"><p>Full year</p></li>
 <li id="fn5"><p>Before you come at me with your arguments about how notebooks are a terrible software development medium, I disagree — and I can prove it</p></li>
+<li id="fn6"><p>Programs are meant to be read by humans and only incidentally for computers to execute — Donald Knuth</p></li>
+<li id="fn7"><p>Fogg Behavior Model: https://www.behaviormodel.org/</p></li>
 </ol>
 </section>
     </div>
