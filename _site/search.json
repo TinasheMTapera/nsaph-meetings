@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "1️⃣ 2025-2026: From New Hire to Independent RSE",
+    "text": "1️⃣ 2025-2026: From New Hire to Independent RSE\n\nMission: Move the lab from ad hoc research computing to more observable, reproducible, and scalable scientific workflows. This required introduction & orientation to…\n\n\n\n\nDatasets💽: ERA5, MAHERY Antongil/Darwin/CRS, SouthWest Cohort, MAHERY Clinical-NE, Kiribati Heavy Metals, Aquatic Food Compositions Database, Nepal IMSTAT, DHS, Weather stations, AirQO, and more…\nInfra🏰: Legacy Google Drive, FASRC, GitHub, Globus, Dataverse, Qualtrics\n\n\n\n\n\n\n\nflowchart TB\n  A[Scientific outputs]\n  B[Reproducible workflows]\n  C[Data/project infrastructure]\n  D[HPC, Git, Globus, docs, automation]\n  D --&gt; C --&gt; B --&gt; A"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse-1",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse-1",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "1️⃣ 2025-2026: From New Hire to Independent RSE",
+    "text": "1️⃣ 2025-2026: From New Hire to Independent RSE\n\nMission: Move the lab from ad hoc research computing to more observable, reproducible, and scalable scientific workflows. This required introduction & orientation to…\n\n\n\n\nTools 🛠️: R, Python, Quarto, DAG pipelines, Slurm, Git, Markdown, RStudio, VSCode\nCommunication 🗣️: Lab meetings, one-on-one support, documentation, workshops, project-specific contexts, Emails, Slack, Basecamp\n\n\n\n\n\n\n\nflowchart TB\n  A[Scientific outputs]\n  B[Reproducible workflows]\n  C[Data/project infrastructure]\n  D[HPC, Git, Globus, docs, automation]\n  D --&gt; C --&gt; B --&gt; A"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#lets-be-honest-this-is-a-lot",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#lets-be-honest-this-is-a-lot",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "2️⃣ Let’s be honest, this is a lot…",
+    "text": "2️⃣ Let’s be honest, this is a lot…\n\nBreadth: The scope of RSE/technical support/data management in academia is broad, spanning technical, educational, and operational domains. It requires learning new tools, deeply understanding disparate research project contexts, and building durable lab capabilities.\nNovelty: Still a nascent field/territory within academia, with few established best practices & expert communities (USRSE &lt; 8 years old). This means each lab is learning by doing, trial and error, and building from scratch ad infinitum.\nGoal Misalignment: What pays bills? Papers. Not code. But what pays bills is often not what supports reproducibility, scalability, or even the research itself. This creates tension between short-term outputs and long-term infrastructure."
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#data-driven-lab-operations-fasrc-and-sacct",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#data-driven-lab-operations-fasrc-and-sacct",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "2️⃣ Data-driven lab operations: FASRC and sacct",
+    "text": "2️⃣ Data-driven lab operations: FASRC and sacct\nCore message: I implemented sacct-based metrics to quantify how the lab uses HPC resources and to support evidence-based planning.\n\n\n\nBuilt reporting around Slurm activity for myself and other lab members.\nTracked jobs, CPU time, memory use, failures, and user/project-level utilization.\nCreated a basis for diagnosing bottlenecks and improving resource requests.\nShifted compute conversations from anecdotal to measurable.\n\n\n\n\n\nMetric\nCurrent value\n\n\n\n\nJobs submitted\n[insert]\n\n\nCompleted jobs\n[insert]\n\n\nFailed jobs\n[insert]\n\n\nCPU-hours used\n[insert]\n\n\nActive users tracked\n[insert]\n\n\n\nExample chart to add: monthly jobs or CPU-hours by user/project.\n\n\nEmphasize that the main accomplishment is the operational capability: the lab can now ask and answer questions about computing use. This supports allocation planning, debugging, onboarding, and future dashboards."
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#reproducibility-and-collaborative-development-git-activity",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#reproducibility-and-collaborative-development-git-activity",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "3️⃣ Reproducibility and collaborative development: Git activity",
+    "text": "3️⃣ Reproducibility and collaborative development: Git activity\nCore message: I helped normalize Git/GitHub as a scientific provenance system, not just a backup location for code.\n\n\n\nSupported project organization around version-controlled workflows.\nEncouraged issue-based work, branches, review, and clearer project histories.\nAdvanced practices using Quarto, R packages, targets, Python/R environments, and pipeline automation.\nReduced risk from undocumented analysis changes and one-person local workflows.\n\n\n\n\n\nGitHub signal\nCurrent value\n\n\n\n\nRepositories supported\n[insert]\n\n\nCommits\n[insert]\n\n\nIssues opened/closed\n[insert]\n\n\nPull requests\n[insert]\n\n\nActive contributors\n[insert]\n\n\n\nInterpretation: Git activity is a proxy for collaboration, provenance, and maintainability.\n\n\nDo not overstate commits as productivity. Frame Git activity as evidence of research traceability and collaboration. Mention specific repositories or projects orally if useful."
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#data-movement-documentation-and-fair-aligned-workflows",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#data-movement-documentation-and-fair-aligned-workflows",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "4️⃣ Data movement, documentation, and FAIR-aligned workflows",
+    "text": "4️⃣ Data movement, documentation, and FAIR-aligned workflows\nCore message: I strengthened the lab’s ability to move, find, understand, and reuse data safely and efficiently.\n\n\nData movement\n\nSupported Globus use for large and secure transfers.\nReduced reliance on fragile transfer methods such as local-only storage, email, or manual download chains.\nHelped align data movement with shared infrastructure and project conventions.\n\nMetrics to add\n\nTransfers completed: [insert]\nData transferred: [insert]\nEndpoints/users active: [insert]\n\n\nDocumentation\n\nCreated and refined guides for FASRC, project setup, Git, data locations, and workflow practices.\nMade onboarding less dependent on repeated one-off explanations.\nAdvanced FAIR principles: findable, accessible, interoperable, reusable data and code.\n\nMetrics to add\n\nPages created/updated: [insert]\nViews or visits: [insert]\nTop-used guide: [insert]\n\n\n\nThis slide pairs data movement with knowledge movement. The argument is that a lab cannot scale if data and operational knowledge live only in people’s heads."
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#strategic-impact-and-next-year-priorities",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#strategic-impact-and-next-year-priorities",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "5️⃣ Strategic impact and next-year priorities",
+    "text": "5️⃣ Strategic impact and next-year priorities\nCore message: The biggest accomplishment is the emergence of an operational layer that makes lab research more scalable, reproducible, and measurable.\n\n\nImpact this year\n\nMade lab computing activity more visible.\nStrengthened reproducible analysis practices.\nImproved data transfer and documentation workflows.\nConverted project-specific lessons into reusable lab infrastructure.\nHelped students and collaborators work more independently and consistently.\n\n\nPriorities for next year\n\nBuild a recurring RSE dashboard from sacct, GitHub, Globus, and docs analytics.\nStandardize project templates for R, Python, Quarto, targets, and HPC workflows.\nFormalize onboarding paths for students and staff.\nDefine data lifecycle conventions from intake to publication/archive.\nExpand reproducible pipeline support for climate-health datasets.\n\n\n\nNarrative close: RSE work turns individual technical support into durable lab capability.\n\n\nClose by connecting accomplishments to institutional value: reproducibility, continuity, lower onboarding burden, better planning, and faster science."
+  }
+]

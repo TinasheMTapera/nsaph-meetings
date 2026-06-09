@@ -1,0 +1,7 @@
+project:
+  type: website
+  title: "nsaph-meetings"
+  render: 
+    - 20260608-annual-review/golden_lab_annual_review.qmd
+
+

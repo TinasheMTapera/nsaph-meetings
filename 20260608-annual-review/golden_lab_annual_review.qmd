@@ -1,0 +1,279 @@
+---
+title: "Annual Review: RSE in the Golden Lab"
+subtitle: "Building Measurable, Reproducible, and Scalable Research Infrastructure"
+author: "Tinashe M. Tapera"
+date: "2026-06-08"
+format:
+  revealjs:
+    theme: dracula
+    slide-number: true
+    incremental: false
+    chalkboard: false
+    code-fold: false
+    transition: fade
+    footer: "Golden Lab Annual Review"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## 1️⃣ 2025-2026: From New Hire to Independent RSE
+
+::: {.r-fit-text}
+**Mission:** Move the lab from ad hoc research computing to more observable, reproducible, and scalable scientific workflows. This required introduction & orientation to...
+:::
+
+:::: {.columns}
+::: {.column .incremental width="75%"}
+- Datasets💽: ERA5, MAHERY Antongil/Darwin/CRS, SouthWest Cohort, MAHERY Clinical-NE, Kiribati Heavy Metals, Aquatic Food Compositions Database, Nepal IMSTAT, DHS, Weather stations, AirQO, and more...
+- Infra🏰: Legacy Google Drive, FASRC, GitHub, Globus, Dataverse, Qualtrics
+:::
+
+::: {.column width="25%"}
+```{mermaid}
+flowchart TB
+  A[Scientific outputs]
+  B[Reproducible workflows]
+  C[Data/project infrastructure]
+  D[HPC, Git, Globus, docs, automation]
+  D --> C --> B --> A
+```
+:::
+::::
+
+## 1️⃣ 2025-2026: From New Hire to Independent RSE
+
+::: {.r-fit-text}
+**Mission:** Move the lab from ad hoc research computing to more observable, reproducible, and scalable scientific workflows. This required introduction & orientation to...
+:::
+
+:::: {.columns}
+::: {.column .incremental width="75%"}
+- Tools 🛠️: R, Python, Quarto, DAG pipelines, Slurm, Git, Markdown, RStudio, VSCode
+- Communication 🗣️: Lab meetings, one-on-one support, documentation, workshops, project-specific 
+contexts, Emails, Slack, Basecamp
+:::
+
+::: {.column width="25%"}
+```{mermaid}
+flowchart TB
+  A[Scientific outputs]
+  B[Reproducible workflows]
+  C[Data/project infrastructure]
+  D[HPC, Git, Globus, docs, automation]
+  D --> C --> B --> A
+```
+:::
+::::
+
+## 2️⃣ Let's be honest, this is a lot...
+
+::: {.r-fit-text}
+**Breadth:** The scope of RSE/technical support/data management in academia is broad, spanning technical, educational, and operational domains. It requires learning new tools, deeply understanding disparate research project contexts, and building durable lab capabilities.
+
+**Novelty:** Still a nascent field/territory within academia, with few established best practices & expert communities (USRSE < 8 years old). 
+This means each lab is learning by doing, trial and error, and building from scratch ad infinitum.
+
+**Goal Misalignment:** What pays bills? Papers. Not code. But what pays bills is often not what supports reproducibility, scalability, or even the research itself. This creates tension between short-term outputs and long-term infrastructure.
+:::
+
+# 3️⃣ So what are we _actually_ doing?
+
+::: {.fragment}
+"I imagine running a lab is a lot like running a startup, except we have **_no_** Y-combinator money." - Ted Satterthwaite, UPenn, 2018
+:::
+
+---
+
+![If labs are like startups, how do we mature the "hat wearing"?](https://static.prospeo.io/directory-assets/images/new_images/c-suite-positions/c-suite-org-chart-by-company-stage.png)
+
+---
+
+#### 4️⃣ RSEOps is about using technology to optimize research mission outcomes & materialize scientific the vision, not the tools^[RSEOps = Research Software Engineering Operations. A term I use to describe the operational layer of research computing that supports reproducibility, scalability, and efficiency in scientific endeavours. Also see [Sochat, n.d.](https://rse-ops.github.io/landscape/src/rse-ops.pdf) ]
+
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![Remote & Reproducible Scientific Products](https://b4130876.smushcdn.com/4130876/wp-content/uploads/2025/03/A-CTO-Playbook-for-Hiring-and-Managing-a-Remote-Development-Team.webp?lossy=2&strip=1&webp=1){width="450px"}
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![Top-right quadrant example](./images/top-right.webp){width="450px"}
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![Bottom-left quadrant example](./images/bottom-left.webp){width="450px"}
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![Bottom-right quadrant example](./images/bottom-right.webp){width="450px"}
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+---
+
+## 2️⃣ Data-driven lab operations: FASRC and `sacct`
+
+**Core message:** I implemented `sacct`-based metrics to quantify how the lab uses HPC resources and to support evidence-based planning.
+
+:::: {.columns}
+::: {.column width="50%"}
+- Built reporting around Slurm activity for myself and other lab members.
+- Tracked jobs, CPU time, memory use, failures, and user/project-level utilization.
+- Created a basis for diagnosing bottlenecks and improving resource requests.
+- Shifted compute conversations from anecdotal to measurable.
+:::
+
+::: {.column width="50%"}
+| Metric | Current value |
+|---|---:|
+| Jobs submitted | `[insert]` |
+| Completed jobs | `[insert]` |
+| Failed jobs | `[insert]` |
+| CPU-hours used | `[insert]` |
+| Active users tracked | `[insert]` |
+
+**Example chart to add:** monthly jobs or CPU-hours by user/project.
+:::
+::::
+
+::: notes
+Emphasize that the main accomplishment is the operational capability: the lab can now ask and answer questions about computing use. This supports allocation planning, debugging, onboarding, and future dashboards.
+:::
+
+## 3️⃣ Reproducibility and collaborative development: Git activity
+
+**Core message:** I helped normalize Git/GitHub as a scientific provenance system, not just a backup location for code.
+
+:::: {.columns}
+::: {.column width="52%"}
+- Supported project organization around version-controlled workflows.
+- Encouraged issue-based work, branches, review, and clearer project histories.
+- Advanced practices using Quarto, R packages, `targets`, Python/R environments, and pipeline automation.
+- Reduced risk from undocumented analysis changes and one-person local workflows.
+:::
+
+::: {.column width="48%"}
+| GitHub signal | Current value |
+|---|---:|
+| Repositories supported | `[insert]` |
+| Commits | `[insert]` |
+| Issues opened/closed | `[insert]` |
+| Pull requests | `[insert]` |
+| Active contributors | `[insert]` |
+
+**Interpretation:** Git activity is a proxy for collaboration, provenance, and maintainability.
+:::
+::::
+
+::: notes
+Do not overstate commits as productivity. Frame Git activity as evidence of research traceability and collaboration. Mention specific repositories or projects orally if useful.
+:::
+
+## 4️⃣ Data movement, documentation, and FAIR-aligned workflows
+
+**Core message:** I strengthened the lab’s ability to move, find, understand, and reuse data safely and efficiently.
+
+:::: {.columns}
+::: {.column width="50%"}
+### Data movement
+
+- Supported Globus use for large and secure transfers.
+- Reduced reliance on fragile transfer methods such as local-only storage, email, or manual download chains.
+- Helped align data movement with shared infrastructure and project conventions.
+
+### Metrics to add
+
+- Transfers completed: `[insert]`
+- Data transferred: `[insert]`
+- Endpoints/users active: `[insert]`
+:::
+
+::: {.column width="50%"}
+### Documentation
+
+- Created and refined guides for FASRC, project setup, Git, data locations, and workflow practices.
+- Made onboarding less dependent on repeated one-off explanations.
+- Advanced FAIR principles: findable, accessible, interoperable, reusable data and code.
+
+### Metrics to add
+
+- Pages created/updated: `[insert]`
+- Views or visits: `[insert]`
+- Top-used guide: `[insert]`
+:::
+::::
+
+::: notes
+This slide pairs data movement with knowledge movement. The argument is that a lab cannot scale if data and operational knowledge live only in people’s heads.
+:::
+
+## 5️⃣ Strategic impact and next-year priorities
+
+**Core message:** The biggest accomplishment is the emergence of an operational layer that makes lab research more scalable, reproducible, and measurable.
+
+:::: {.columns}
+::: {.column width="52%"}
+### Impact this year
+
+- Made lab computing activity more visible.
+- Strengthened reproducible analysis practices.
+- Improved data transfer and documentation workflows.
+- Converted project-specific lessons into reusable lab infrastructure.
+- Helped students and collaborators work more independently and consistently.
+:::
+
+::: {.column width="48%"}
+### Priorities for next year
+
+1. Build a recurring RSE dashboard from `sacct`, GitHub, Globus, and docs analytics.
+2. Standardize project templates for R, Python, Quarto, `targets`, and HPC workflows.
+3. Formalize onboarding paths for students and staff.
+4. Define data lifecycle conventions from intake to publication/archive.
+5. Expand reproducible pipeline support for climate-health datasets.
+:::
+::::
+
+::: {.r-fit-text}
+**Narrative close:** RSE work turns individual technical support into durable lab capability.
+:::
+
+::: notes
+Close by connecting accomplishments to institutional value: reproducibility, continuity, lower onboarding burden, better planning, and faster science.
+:::
