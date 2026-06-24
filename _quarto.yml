@@ -2,6 +2,7 @@ project:
   type: website
   title: "Meeting Slides"
   render: 
+    - index.qmd
     - 20260608-annual-review/golden_lab_annual_review.qmd
     - 20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.qmd
 

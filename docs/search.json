@@ -28,6 +28,20 @@
     "text": "Footnotes\n\n\nFogg Behavior Model: https://www.behaviormodel.org/"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Meeting Slides",
+    "section": "",
+    "text": "This website contains the different slides I create for various meetings and presentations. Slides are written in Quarto, and rendered as a website to GitHub Pages.\n\n\n\nGolden Lab Annual Review 2026\n\n\n\n\n\nNSAPH 6-Month Check-In 2026"
+  },
+  {
+    "objectID": "index.html#my-slides",
+    "href": "index.html#my-slides",
+    "title": "Meeting Slides",
+    "section": "",
+    "text": "This website contains the different slides I create for various meetings and presentations. Slides are written in Quarto, and rendered as a website to GitHub Pages.\n\n\n\nGolden Lab Annual Review 2026\n\n\n\n\n\nNSAPH 6-Month Check-In 2026"
+  },
+  {
     "objectID": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse",
     "href": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse",
     "title": "Annual Review: RSE in the Golden Lab",
