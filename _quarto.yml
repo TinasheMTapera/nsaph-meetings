@@ -1,7 +1,9 @@
 project:
   type: website
-  title: "nsaph-meetings"
+  title: "Meeting Slides"
   render: 
     - 20260608-annual-review/golden_lab_annual_review.qmd
+    - 20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.qmd
 
+  output-dir: docs
 

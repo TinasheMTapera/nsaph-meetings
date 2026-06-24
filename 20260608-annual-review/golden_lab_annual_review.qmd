@@ -16,6 +16,7 @@ format:
     title-slide-attributes: 
       data-background-image: "PHOTO-2026-05-13-13-58-08.jpg"
       data-background-opacity: 30%
+    embed-resources: true
 execute:
   echo: false
   warning: false

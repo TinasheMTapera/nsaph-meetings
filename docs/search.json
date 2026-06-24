@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.html#strategic-impact-looking-ahead",
+    "href": "20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.html#strategic-impact-looking-ahead",
+    "title": "6-Month Check-In",
+    "section": "Strategic impact & looking ahead",
+    "text": "Strategic impact & looking ahead\nRSEOps: operationalizing the shift toward more reproducible, scalable, and efficient research practices.\n\n\nWhere we’ve been…\n\nIncreased visibility of Research Computing\nStrengthened reproducible analysis practices.\nImproved data transfer and documentation workflows.\nConverted project-specific lessons into reusable lab infrastructure.\nHelped students and collaborators work more independently and consistently.\nBuilt a data-driven foundation for continuous improvement, measurable outcomes, and strategic planning\n\n\n\n\n\nEverything’s Connected!"
+  },
+  {
+    "objectID": "20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.html#strategic-impact-looking-ahead-1",
+    "href": "20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.html#strategic-impact-looking-ahead-1",
+    "title": "6-Month Check-In",
+    "section": "Strategic Impact & Looking Ahead",
+    "text": "Strategic Impact & Looking Ahead\nRSEOps: operationalizing the shift toward more reproducible, scalable, and efficient research practices.\n\n\nWhere we’re going…\n\nn-of-1 experiment: Practice what we preach — be the first.\nPrinciples before tools: Before introducing a new tool or workflow, clearly articulate how it fits into the RSEOps principles.\nStrengthen collaboration: What can we cherry pick from NSAPH’s existing RSEOps ecosystem? What can we contribute back? How can we leverage NSAPH’s collective expertise to build durable lab infrastructure?\nRSEOps Artifacts: Create & maintain RSEOps artifacts (datasets, projects, documentation, training materials, convenience tools) and reward their use and maintenance as much as we reward papers.\nEcosystem development: Continue to build out a cohesive ecosystem of tools that support reproducibility, scalability, and continuous learning in our research workflows.\n\n\n\n\n\nBehavior change is hard, but possible when you create a supportive environment1"
+  },
+  {
+    "objectID": "20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.html#highlights",
+    "href": "20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.html#highlights",
+    "title": "6-Month Check-In",
+    "section": "Highlights",
+    "text": "Highlights\n\n\n1. 🌐Remote First: Lean in to FASRC as our primary (and preferably, only) compute environment. 2. 💎 Code as Source of Truth: The “methods section” is the currency of science 3. 📊 Communication over Sophistication: Reading/writing science is hard; make it easy with notebooks! 4. 🌱 Good Habits Compound: Save on technical debt by implementing best practices early and often\n\n\n\n\n\nOur New Handbook is Live"
+  },
+  {
+    "objectID": "20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.html#footnotes",
+    "href": "20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.html#footnotes",
+    "title": "6-Month Check-In",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFogg Behavior Model: https://www.behaviormodel.org/"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "1️⃣ 2025-2026: From New Hire to Independent RSE 🤝",
+    "text": "1️⃣ 2025-2026: From New Hire to Independent RSE 🤝\n\nMission: Move the lab from ad hoc research computing to more observable, reproducible, and scalable scientific workflows. This required introduction & orientation to…\n\n\n\n\nDatasets💽: ERA5, MAHERY Antongil/Darwin/CRS, SouthWest Cohort, MAHERY Clinical-NE, Kiribati Heavy Metals, Aquatic Food Compositions Database, Nepal IMSTAT, DHS, Weather stations, AirQO, and more…\nInfra🏰: Legacy Google Drive, FASRC, GitHub, Globus, Dataverse, Qualtrics\n\n\n\n\n\n\n\nflowchart TB\n  A[Scientific outputs]\n  B[Reproducible workflows]\n  C[Data/project infrastructure]\n  D[HPC, Git, Globus, docs, automation]\n  D --&gt; C --&gt; B --&gt; A"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse-1",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#from-new-hire-to-independent-rse-1",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "1️⃣ 2025-2026: From New Hire to Independent RSE 🤝",
+    "text": "1️⃣ 2025-2026: From New Hire to Independent RSE 🤝\n\nMission: Move the lab from ad hoc research computing to more observable, reproducible, and scalable scientific workflows. This required introduction & orientation to…\n\n\n\n\nTools 🛠️: R, Python, Quarto, Zotero, Slurm, Git, Markdown, RStudio, VSCode\nCommunication 🗣️: Lab meetings, one-on-one support, documentation, workshops, project-specific contexts, Emails, Slack, Basecamp\n\n\n\n\n\n\n\nflowchart TB\n  A[Scientific outputs]\n  B[Reproducible workflows]\n  C[Data/project infrastructure]\n  D[HPC, Git, Globus, docs, automation]\n  D --&gt; C --&gt; B --&gt; A"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#lets-be-honest-this-is-a-lot",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#lets-be-honest-this-is-a-lot",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "2️⃣ Let’s be honest, this is a lot…😮‍💨",
+    "text": "2️⃣ Let’s be honest, this is a lot…😮‍💨\n\nBreadth: The scope of RSE/research data management/technological support in academia is broad, spanning technical, educational, and operational domains. It requires learning new tools, deeply understanding disparate research project contexts, and building durable lab capabilities.\nNovelty: Still a nascent field/territory within academia, with few established best practices & expert communities (USRSE &lt; 8 years old). This means each lab is learning by doing, trial and error, and building from scratch ad infinitum.\nGoal MisAlignment: What pays bills? Papers. Not code. But what pays bills is often not what supports reproducibility, scalability, or even the research itself. This creates tension between short-term outputs and long-term infrastructure.\nIncentive MisAlignment: Scientists are disincentivized from investing in durable infrastructure that supports reproducibility and scalability because it is not recognized as a research output. This creates tension between individual career incentives and collective lab needs."
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#so-what-has-changed",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#so-what-has-changed",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "5️⃣ So What has Changed?",
+    "text": "5️⃣ So What has Changed?\n\n🌐Remote First: Lean in to FASRC as our primary (and preferably, only) compute environment.\n\n\n\n\nI love working on my laptop! → it only works on my machine → reluctance to distribute work → replication/reproducibility crisis2\nBegin with the end in mind: you won’t have to “figure out how to make it run on X” if you started with X in the first place.\nVision: a project can be cloned, installed, and run on any environment/machine, producing replicable results with zero intervention\nActions: Make FASRC the easy choice (🔄 Sync Google Drive & FASRC, ⛔ reject collaboration on local-only workflows, 🔧 develop/maintain convenience tools like stagecoach, 🎁 share big data using Globus-FASRC plugin)\n\n\n\n\n\n\nMetric\n24-25AY\n25-26AY\n\n\n\n\nJobs submitted3\n0\n168\n\n\nCPU-hours used4\n0\n4110\n\n\n\n\n\nsreport cluster UserUtilizationByAccount -t Hour Accounts=cgolden_lab Start=2026-01-01 End=2026-06-01 Tree\nsreport cluster UserUtilizationByAccount -t HourPer Accounts=cgolden_lab Start=2026-01-01 End=2026-06-01 Tree"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#so-what-has-changed-1",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#so-what-has-changed-1",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "5️⃣ So What has Changed?",
+    "text": "5️⃣ So What has Changed?\n\n💎 Code as Source of Truth: The “methods section” is the currency of science\n\n\n\n\nWe were asked to share how we implemented a particular method → we got the original dataset from a collaborator, but we don’t talk anymore → someone fixed some of the values in Excel → we didn’t write down what version of dplyr we used, so the code crashes → retraction 😰\nThe code is your methods section: Science happens when someone else can repeat your experiment and get the same result based on your instructions.\nVision: All data processing and analysis steps are implemented in code that is well-documented, version-controlled, and shared in a way that others can easily access and run it.\nActions: Create central GitHub repository for all lab activities, fork repos, promote machine-readable tools to enable code-as-methods (e.g. pipelines as DAGs, notebooks as experiments, stagecoach manifest).\n\n\n\n\n\n\nUsing GitHub to Track Progress of Tasks, Implemented in Code"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#so-what-has-changed-2",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#so-what-has-changed-2",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "5️⃣ So What has Changed?",
+    "text": "5️⃣ So What has Changed?\n\n📊 Communication over Sophistication: Reading/writing science is hard; make it easy with notebooks!\n\n\n\n\nReading code sucks. Writing code sucks. We are not engineers, we are scientists. We want to understand the science, not the code.\nLiterate Programming: There is no excuse not to use notebooks for (nearly) everything5.\nVision: Science is as fun and easy to read as it is to create. Notebooks allow you to interleave plain-text code, results, and narrative in a way that is simultaneously digestible and comprehensive.\nActions: Create a project template that encourages using notebooks for data processing and analysis, provide training and support to help students and collaborators adopt this practice, and promote the use of notebooks as a standard for scientific communication within the lab6.\n\n\n\n\n\n\nOur one-click notebook driven project template\n\n\n\n\n\nAll of my pipelines, packages — even this slide deck — are built using notebooks first"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#so-what-has-changed-3",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#so-what-has-changed-3",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "5️⃣ So What has Changed?",
+    "text": "5️⃣ So What has Changed?\n\n🌱 Good Habits Compound: Save on technical debt by implementing best practices early and often\n\n\n\n\nHow do I move my code to GitHub? I’m scared to change this file, I don’t remember how it works. This process took really long, I don’t want to do it again. I don’t have time to write documentation, I’ll just tell people how it works when they ask.\nTechnical debt: The future cost of doing things the quick and dirty way. It compounds over time.\nVision: We have a culture of best practices that support reproducibility, scalability, and efficiency in our research.\nActions: Provide careful, empathetic training and support to help students and collaborators adopt best practices, and encourage a culture of learning that supports the lab’s research mission. Further, encourage “open learning” by never shying away from sharing WIPs, always praising incremental progress and effort, and immediately democratizing knowledge in public documentation, code repositories, and conversations.\n\n\n\n\n\n\nOur New Handbook is Live\n\n\n\n\n\nWe ask questions in shared Slack channels, not personal emails"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#strategic-impact-looking-ahead",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#strategic-impact-looking-ahead",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "6️⃣ Strategic impact & looking ahead",
+    "text": "6️⃣ Strategic impact & looking ahead\nRSEOps: operationalizing the shift toward more reproducible, scalable, and efficient research practices.\n\n\nImpact this year\n\nIncreased visibility of Research Computing\nStrengthened reproducible analysis practices.\nImproved data transfer and documentation workflows.\nConverted project-specific lessons into reusable lab infrastructure.\nHelped students and collaborators work more independently and consistently.\nBuilt a data-driven foundation for continuous improvement, measurable outcomes, and strategic planning\n\n\n\n\n\nEverything’s Connected!"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#strategic-impact-looking-ahead-1",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#strategic-impact-looking-ahead-1",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "6️⃣ Strategic impact & looking ahead",
+    "text": "6️⃣ Strategic impact & looking ahead\nRSEOps: operationalizing the shift toward more reproducible, scalable, and efficient research practices.\n\n\n\nn-of-1 experiment: Practice what we preach — be the first.\nPrinciples before tools: Before introducing a new tool or workflow, clearly articulate how it fits into the RSEOps principles.\nStrengthen collaboration: What can we cherry pick from NSAPH’s existing RSEOps ecosystem? What can we contribute back? How can we leverage NSAPH’s collective expertise to build durable lab infrastructure?\nRSEOps Artifacts: Create & maintain RSEOps artifacts (datasets, projects, documentation, training materials, convenience tools) and reward their use and maintenance as much as we reward papers.\nEcosystem development: Continue to build out a cohesive ecosystem of tools that support reproducibility, scalability, and continuous learning in our research workflows.\n\n\n\n\n\nBehavior change is hard, but possible when you create a supportive environment7"
+  },
+  {
+    "objectID": "20260608-annual-review/golden_lab_annual_review.html#footnotes",
+    "href": "20260608-annual-review/golden_lab_annual_review.html#footnotes",
+    "title": "Annual Review: RSE in the Golden Lab",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nRSEOps = Research Software Engineering Operations. A term I use to describe the operational layer of research computing that supports reproducibility, scalability, and efficiency in scientific endeavours. Also see Sochat, n.d. \nThis has not gone away!\nOne week\nFull year\nBefore you come at me with your arguments about how notebooks are a terrible software development medium, I disagree — and I can prove it\nPrograms are meant to be read by humans and only incidentally for computers to execute — Donald Knuth\nFogg Behavior Model: https://www.behaviormodel.org/"
+  }
+]

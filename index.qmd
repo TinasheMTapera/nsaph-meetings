@@ -1,7 +1,16 @@
 ---
-title: "nsaph-meetings"
+title: "Meeting Slides"
 ---
 
-## Quarto
+## My Slides
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+This website contains the different slides I create for various meetings and presentations.
+Slides are written in Quarto, and rendered as a website to GitHub Pages.
+
+### Golden Lab Annual Reviews
+
+- [Golden Lab Annual Review 2026](20260608-annual-review/golden_lab_annual_review.qmd)
+
+### NSAPH 6-Month Check-Ins
+
+- [NSAPH 6-Month Check-In 2026](20260624-nsaph-6-mo-checkin/nsaph-6-mo-checkin.qmd)
