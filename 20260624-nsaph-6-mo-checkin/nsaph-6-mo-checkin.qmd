@@ -71,8 +71,11 @@ execute:
 :::: {.columns}
 ::: {.column .r-fit-text .incremental .fade-in-then-semi-out width="45%"}
 **1. 🌐Remote First:** Lean in to FASRC as our primary (and preferably, _only_) compute environment.
+
 **2. 💎 Code as Source of Truth:** The "methods section" is the currency of science
+
 **3. 📊 Communication over Sophistication:** Reading/writing science is hard; make it easy with notebooks!
+
 **4. 🌱 Good Habits Compound:** Save on technical debt by implementing best practices early and often
 :::
 
@@ -80,7 +83,7 @@ execute:
 ::: {.column .r-fit-text .incremental width="55%"}
 
 ::: {.fragment}
-![Our New Handbook is Live](../assets/img/handbook.png){width="300px"} 
+![Our New Handbook is Live](../assets/img/handbook.png) 
 :::
 :::
 ::::
