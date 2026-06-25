@@ -1,0 +1,71 @@
+---
+title: "RSEOps In Action"
+subtitle: "Building Measurable, Reproducible, and Scalable Research Infrastructure"
+author: "Tinashe M. Tapera"
+date: "2026-07-08"
+format:
+  revealjs:
+    theme: dracula
+    slide-number: true
+    incremental: false
+    chalkboard: false
+    code-fold: false
+    transition: fade
+    footer: "RSEOps In Action"
+    reference-location: document
+    title-slide-attributes: 
+      # data-background-image: "PHOTO-2026-05-13-13-58-08.jpg"
+      data-background-opacity: 30%
+    embed-resources: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Agenda
+
+<!-- review the agenda for the day -->
+
+## Why Should I Care?
+<!-- 
+[ 5 mins ]
+Some motivating context for why we should care about RSEOps:
+- What it means to "do science" from the perspective of a support team
+  - It can look different from the perspective of a PI or Student
+  - How do we align the goals?
+- How having no process or infrastructure can hurt
+  - You want to move as fast as possible with as little friction as possible
+  - we can predict where you will have trouble, and so we impose structure and friction at the beginning, to help you avoid friction later
+  - At best, later friction is a waste of time; at worst, it's a paper retraction or a lost career opportunity
+ -->
+
+## What is RSEOps?
+<!-- 
+[ 10 mins ]
+- broadly, operationalize RSEOps and what we want to achieve
+- Give examples of how NSAPH has already implemented some Ops principles
+- Outline that there is no one-size-fits-all, there is no currently infallible authority (eg in medicine/pharma everybody knows how to report studies)
+- Much of this we have to build ourselves, which is where the data team comes in
+ -->
+
+## Example 1: Stagecoach
+<!-- 
+[ 10 mins ]
+- https://goldenplanetaryhealthlab.github.io/stagecoach/
+ -->
+
+## Example 2: Data Promotion
+<!-- 
+[ 10 mins ]
+- play doh vs lego
+- golden lab: gold mine
+ -->
+
+## Conclusion
+
+<!-- 
+[5 mins]
+- this is how we operationalize RSEOps
+- here is how you can help 
+-->
